@@ -1,0 +1,35 @@
+{
+  "name": "bikerent",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --presets es2015,stage-2"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "node-microphone": "^0.1.3",
+    "serve-favicon": "~2.4.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.4",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "csv-to-json": "^0.1.2",
+    "csvtojson": "^1.1.9",
+    "fs": "0.0.1-security",
+    "mongojs": "^2.4.1",
+    "mongoose-deep-populate": "^3.0.0",
+    "passport": "^0.4.0"
+  }
+}
